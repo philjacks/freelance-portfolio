@@ -10,7 +10,7 @@
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     
     <title>Phil Jacks | Contact</title>
   </head>
@@ -88,9 +88,11 @@
           <input type="email" name="email" placeholder=" Email" required><br>
           <input type="text" name="subject" id="subject" placeholder=" Subject"><br>
           <textarea name="message" rows="10" id="message" placeholder=" Message"></textarea><br>
+          
           <input type="hidden" name="_subject" id ="email-response" value="Message Response">
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="http://127.0.0.1:5500/dist/pages/thanks.html">
+          
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thanks.html">
           <button type="submit">Send</button>
         </form>
     </div>
