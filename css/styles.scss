@@ -131,9 +131,14 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
 
+  h3 {
+    margin-bottom: 0;
+  }
+
   .item {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-bottom: 1rem;
   }
 
