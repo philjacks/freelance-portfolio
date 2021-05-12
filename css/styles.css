@@ -164,11 +164,6 @@
           box-sizing: border-box;
 }
 
-#fav {
-  width: 4px;
-  height: 4px;
-}
-
 body {
   background: #202020;
   color: #fcfaf9;
